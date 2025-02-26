@@ -61,3 +61,52 @@ header {
     footer a {
     color:#024e76;
     }
+/* Hero Style Start */
+.hero {
+height: 600px;
+background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  border: solid 3px #024e76;
+  position:absolute;
+  bottom:3cm;
+  right:3.5cm;
+}
+.hero-form h3 {
+  font-size:0.6cm;
+  margin:0.6cm;
+}
+.hero-form p {
+  margin: 0.125cm 0 0.37cm 0; 
+ }
+.hero-form label {
+ margin:0 0.125cm; 
+}
+.hero-form button {
+color:#fce138;
+ background:#024e76;
+  border:none;
+  padding:0.25cm 0.50cm;
+  font-size:0.38cm;
+}
+.form-input {
+border:0.025cm solid #024e76;
+  display:block;
+  padding:0.17cm 0.37cm;
+  font-size:0.39cm;
+}
+
+/* Hero Style End */
+
+
+    section {
+      padding: 60px;
+      
+    }
