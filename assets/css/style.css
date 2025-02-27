@@ -114,12 +114,7 @@ border:0.025cm solid #024e76;
       text-align:center;
     }
     .intro h2 {
-      font-size:1.37cm;
-      color:#024e76;
-      margin-bottom:0.87cm;
-      padding:0 2.5cm 0.5cm 2.5cm;
-      border-bottom:0.075cm solid #fce138;
-      display:inline-block;
+   
     }
     .intro p {
       line-height:1.7;
@@ -127,4 +122,53 @@ border:0.025cm solid #024e76;
       width:80%;
       font-size:0.5cm;
       margin:0 auto;
+    }
+
+    .steps {
+      text-align: center;
+      background: #fce138;
+      
+    }
+    .steps h2 {
+
+    }
+
+    .steps div {
+      margin-bottom:2cm;
+      
+    }
+    .steps img {
+      width:15%;
+      margin:0.25cm 0;
+      
+    }
+    .steps h3 {
+    color:#024e76;
+      font-size:1cm;
+      margin-top:0.25cm;
+    }
+    .steps p {
+    color:#39a6b2;
+      font-size:0.6cm;
+    }
+    .steps span {
+      font-size:0.90px;
+    }
+
+    .section-title {
+      font-size:1.37cm;
+      color:#024e76;
+      margin-bottom:0.87cm;
+     padding:0 2.5cm 0.5cm 2.5cm;
+      border-bottom:0.075cm solid #39a6b2;
+     display:inline-block;
+     
+    }
+
+    .primary-border {
+      border-color: #fce138;
+    }
+    
+    .secondary-border {
+      border-color: #39a6b2;
     }
