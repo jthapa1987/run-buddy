@@ -213,7 +213,21 @@ text-align: center;
      color: white;
      }
 
-
+     .contact-info h3 {
+      color: #fce138;
+      font-size: 0.78cm;
+    }
+    
+    .contact-info p, .contact-info address {
+      margin: 0.5cm 0;
+      line-height: 1.5;
+      font-size:0.5cm;
+      font-style: normal;
+    }
+    
+    .contact-info a {
+      color: #fce138;
+    }
 
  .text-left {
   text-align: left;
