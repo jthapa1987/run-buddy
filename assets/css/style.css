@@ -16,10 +16,6 @@ header {
     background-color: #39a6b2;
   }
 
-  header a {
-    color:#fce138;
-    text-decoration:none;
-  }
   header h1 {
     font-weight:bold;
     font-size:1cm;
@@ -27,6 +23,11 @@ header {
     margin:0;
     display: inline;
   }
+  header a {
+    color:#fce138;
+    text-decoration:none;
+  }
+ 
   header nav {
     float:right;
     margin:0.17cm 0;
@@ -81,7 +82,7 @@ position: relative;
 }
 .hero-form h3 {
   font-size:0.6cm;
-  margin:0.6cm;
+  margin:0;
 }
 .hero-form p {
   margin: 0.125cm 0 0.37cm 0; 
@@ -101,6 +102,9 @@ border:0.025cm solid #024e76;
   display:block;
   padding:0.17cm 0.37cm;
   font-size:0.39cm;
+  color: #024e76;
+  width: 100%;
+  margin-bottom:0.37cm;
 }
 
 /* Hero Style End */
