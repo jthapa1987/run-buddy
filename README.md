@@ -11,4 +11,4 @@ A website that offers fitness training services.
 file:///C:/run-buddy/index.html 
 
 ## Contribution
-Made with ❤️ by Jeevan Thapa
+Made with ❤️ by Jeevan Thapa 
