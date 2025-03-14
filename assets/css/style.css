@@ -150,7 +150,7 @@ border:0.025cm solid #024e76;
     }
 
     .intro {
-      text-align:center;
+    
     }
     .intro h2 {
    
@@ -161,10 +161,11 @@ border:0.025cm solid #024e76;
       width:80%;
       font-size:0.5cm;
       margin:0 auto;
+      text-align:center;
     }
 
     .steps {
-      text-align: center;
+  
       background: #fce138;
       
     }
@@ -193,8 +194,9 @@ border:0.025cm solid #024e76;
     .steps span {
       font-size:0.90px;
     }
+
 .trainers {
-text-align: center;
+
 }
 
 .trainer {
@@ -232,7 +234,7 @@ text-align: center;
 
 
 .contact { 
-  text-align: center; 
+  
   background: #024e76; 
 } 
 .contact h2 { 
@@ -279,10 +281,11 @@ text-align: center;
     .section-title {
       font-size:1.37cm;
       color:#024e76;
-      margin-bottom:0.87cm;
-     padding:0 2.5cm 0.5cm 2.5cm;
-      border-bottom:0.075cm solid #39a6b2;
-     display:inline-block;
+ border-bottom:0.075cm solid #39a6b2;
+ padding-bottom:0.5cm;
+ text-align:center;
+  margin:0 auto 0.87cm auto;
+   width:50%;
      
     }
 
@@ -294,7 +297,11 @@ text-align: center;
       border-color: #39a6b2;
     }
 
-
+    .flex-row {
+      display:flex;  
+      }
+      
+      
 
 
 
