@@ -165,34 +165,63 @@ border:0.025cm solid #024e76;
     }
 
     .steps {
-  
-      background: #fce138;
+   background: #fce138;
       
+    }
+
+
+
+    .step {
+      margin:1.25cm auto;
+      padding-bottom:1.25cm;
+      width: 80%;
+      border-bottom:0.025cm solid #39a6b2;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
     }
     .steps h2 {
 
     }
 
     .steps div {
-      margin-bottom:2cm;
+    
       
     }
-    .steps img {
-      width:15%;
-      margin:0.25cm 0;
+    .step-img {
+  flex: 1 12%;
+  margin-right:0.5cm;;
       
     }
-    .steps h3 {
+    .step-img img {
+      max-width: 100%;
+    }
+    .step h3 {
     color:#024e76;
       font-size:1cm;
-      margin-top:0.25cm;
+      flex:1 30%;
     }
-    .steps p {
+    .step-info {
+      flex: 2 70%;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    .step-text {
+      flex: 12;
+    }
+    .step-text h4 {
+    font-size: 0.65cm;  
+    line-height: 1.5;
+    color:#024e76;
+    }
+    .step-text p {
     color:#39a6b2;
-      font-size:0.6cm;
+      font-size:0.45cm;
     }
     .steps span {
-      font-size:0.90px;
+
     }
 
 .trainers {
