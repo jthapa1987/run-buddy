@@ -225,40 +225,43 @@ border:0.025cm solid #024e76;
     }
 
 .trainers {
-
+  width:100%;
+  margin:0 auto;
+display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
 }
 
 .trainer {
-  width:22.5cm;
-  margin:0 auto 0.75cm auto;  
+
+  margin:0.50cm;  
   background:#024e76;
   color:#fce138;  
-  overflow: auto;
+flex:1
   }
 
   .trainer img {
-    width:35%;
-     float:left;
+    width:100%;
+  
    }
  .trainer-bio {
-  padding:0.87cm;
-   float:left;
-   width:65%;
+  padding:0.62cm;
+ 
+   line-height: 1.3;
  }
  .trainer-bio h3 {
-  font-size: 0.78cm;
-  margin-bottom:0.2cm;
+  font-size: 0.71cm;
+
 }
 
 .trainer-bio h4 {
   font-weight: lighter;
-  font-size:0.65cm;
-  margin-bottom: 0.62cm;
+  font-size:0.55cm;
+  margin-bottom: 0.37cm;
 }
 
 .trainer-bio p {
   font-size: 0.42cm;
-  line-height: 1.3;
 }
 
 
