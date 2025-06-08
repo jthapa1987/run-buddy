@@ -17,6 +17,13 @@ header {
     display: flex;
     justify-content:space-between;
     flex-wrap:wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+
+    background-image:url("https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg");
+background-size: cover;
+background-position: center;
   }
 
   header h1 {
@@ -24,7 +31,7 @@ header {
     font-size:1cm;
     color:#fce138;
     margin:0;
-   
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.5); 
   }
   header a {
     color:#fce138;
@@ -53,8 +60,16 @@ header {
     padding:0.25cm 0.37cm;
      font-weight:lighter;
      font-size: 1.55vw;
+     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
    }
 
+   header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  
    footer {
     background:#fce138;
     width:100%;
@@ -91,6 +106,8 @@ display:flex;
   justify-content:center;
   flex-wrap:wrap;
   align-items:flex-start;
+  background-attachment:fixed;
+  background-position:80%;
 }
 
 .hero-cta {
@@ -106,6 +123,7 @@ display:flex;
     font-style:italic;
     font-size:1.37cm;
     color:#fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
 .hero-form {
@@ -115,6 +133,8 @@ display:flex;
   border: solid 3px #024e76;
   width:40%;
   margin:3.5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
 }
 .hero-form h3 {
   font-size:0.6cm;
@@ -132,7 +152,13 @@ color:#fce138;
   border:none;
   padding:0.25cm 0.50cm;
   font-size:0.38cm;
+  border-radius: 15px;
 }
+
+.hero-form button:hover {
+  background-color: #39a6b2;  
+}
+
 .form-input {
 border:0.025cm solid #024e76;
   display:block;
@@ -141,8 +167,13 @@ border:0.025cm solid #024e76;
   color: #024e76;
   width: 100%;
   margin-bottom:0.37cm;
+  border-radius: 15px;
+  background-color: rgba(255,255,255, 0.75);
 }
-
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none
+}
 /* Hero Style End */
 
 
@@ -176,7 +207,7 @@ border:0.025cm solid #024e76;
       margin:1.25cm auto;
       padding-bottom:1.25cm;
       width: 80%;
-      border-bottom:0.025cm solid #39a6b2;
+  
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -224,6 +255,11 @@ border:0.025cm solid #024e76;
     .steps span {
 
     }
+
+
+.step:nth-child(even) {
+border-bottom: 0.025cm solid #39a6b2;
+}
 
 .trainers {
   width:100%;
@@ -320,8 +356,12 @@ flex:1
       width:100%;
       margin-bottom:0.37cm;
       margin-top:0.14cm;
+      border-radius: 15px;
+      background-color:rgba(255,255,255, 1)
     }
-    
+    .contact-form input:focus, .contact-form textarea:focus {
+background-color: azure;
+    }
     .contact-form button {
 width:100%;
 border:none;
@@ -330,8 +370,13 @@ color:#024e76;
 text-align:center;
 padding:0.37cm 0;
 font-size:0.38cm;
+border-radius: 15px;
     }
-
+    .contact-form button:hover {
+      color: #fce138;
+      background: #39a6b2;
+    }
+    
     .contact-info a {
       color: #fce138;
     }
@@ -371,6 +416,7 @@ font-size:0.38cm;
         header {
           padding-bottom: 0;
           justify-content: center;
+position: relative;
         }
       
         header h1 {
