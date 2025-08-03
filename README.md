@@ -7,8 +7,8 @@ A website that offers fitness training services.
 * HTML
 * CSS
 
-## Website
-http://127.0.0.1:5500/index.html
+## Website :
+https://jthapa1987.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jeevan Thapa
