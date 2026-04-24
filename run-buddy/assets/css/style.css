@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #39a6b2;
+  font-family:helvetica, Arial, sans-serif;
+}
+/*------------header---------------*/
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin:0;
+  display: inline;
+}
+header a {
+  text-decoration:none;
+  color:#fce138;
+}
+header nav {
+  float:right;
+  margin:0.1852cm 0;
+}
+header nav ul li {
+display:inline;
+}
+header nav ul li a {
+ margin:0 0.7928cm; 
+  font-weight:lighter;
+  font-size:0.5821cm;
+}
+/*--------------header  section ends --------*/
+
+/*-------------footer------------------------*/
+footer {
+background:#fce138;
+width:100%;
+padding:1.0584cm 0.9261cm;
+}
+footer h2 {
+  display:inline;
+  color:#024e76;
+font-size:0.7938cm;
+  margin:0;
+}
+footer div {
+float:right;
+line-height:1.5;
+text-align:right;
+}
+footer a {
+color:#024e76;  
+}
+
+/*--------------footer section ends---------------*/
+
+
+/*-------------------hero section---------------------------------*/
+.hero {
+background-image: url("../images/hero-bg.jpg");
+height:15.876cm;
+background-size:cover;
+background-position:center;
+position:relative;
+}
+.hero-form {
+border:solid 0.075cm #024e76;
+  background:yellow;
+  padding:0.5292cm;
+width:13.23cm;
+color:#024e76;
+position:absolute;
+  bottom:3.1752cm;
+  right:3.7044cm;
+}
+.hero-form h3 {
+font-size:0.6350cm;  
+  margin:0;
+}
+.hero-form p {
+margin:0.1323cm 0 0.3969cm 0;
+}
+.form-input {
+  border:0.025cm solid #024e76;
+  display:block;
+  padding:0.1852cm 0.3969cm;
+  font-size:0.4234cm;
+  color:#024e76;
+  width:100%;
+  margin-bottom:0.3969cm;
+}
+.hero-form label {
+  margin:0cm;
+}
+.hero-form button {
+color:#fce138;
+background:#024e76;
+border:none;
+padding:0.2646cm 0.5292cm;
+font-size:0.4234cm;
+}
+
+/*-----------hero ends--------------------*/
+
+
+/* What We Do Start*/
+.intro {
+text-align:center;
+}
+.intro p {
+line-height:1.7;
+color:#39a6b2;
+margin: 0 auto;
+width:80%;
+font-size:0.5292cm;
+}
+
+/* What We Do Ends*/
+
+
+/*What You Do Start*/
+
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+.steps div {
+  margin-bottom:2.1167cm;
+}
+.steps img {
+  width:15%;
+  margin:0.265cm 0;
+  
+}
+.steps h3 {
+  color:#024e76;
+  font-size:1.219cm;
+  margin-top:0.265cm;
+}
+.steps p {
+  color:#39a6b2;
+  font-size:0.609cm;
+}
+.steps span {
+font-size:1.005cm; 
+}
+/*What You Do Ends*/
+
+
+
+/*Trainers*/
+.trainers {
+  text-align: center;
+}
+.trainer {
+width:23.812cm;
+  margin:0 auto 0.794cm auto;
+background:#024e76;
+  color:#fce138;
+  overflow: auto;
+}
+.trainer img {
+  width:35%;
+  float:left;
+}
+.trainer-bio {
+  padding:0.926cm;
+  float:left;
+  width:65%;
+}
+
+/*Reach Out Start*/
+.contact {
+  background-color: #024e76;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #fce138;
+}
+.contact-info iframe {
+  width: 10.583cm;   
+  height: 10.583cm;
+}
+
+.contact-info div {
+width:10.846cm;
+  display:inline-block;
+  vertical-align:top;
+  text-align:left;
+  margin:0.794cm 0 0 1.587cm;
+  color:white;
+  
+}
+.contact-info h3 {
+  color: #fce138;
+  font-size: 0.847cm;   
+}
+.contact-info p,
+.contact-info address {
+  margin: 0.529cm 0;   
+  line-height: 1.5;
+  font-size: 0.529cm;   
+  font-style: normal;
+}
+
+
+
+
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+ section {
+  padding: 1.5876cm;
+ }
+
+  .section-title {
+font-size:1.4553cm;
+   color:#024e76;
+   display:inline-block;
+   margin-bottom:0.9261cm;
+   padding:0 2.646cm 0.5292cm 2.646cm;
+ }
+ .primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
