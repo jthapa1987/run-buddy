@@ -2,16 +2,16 @@
   background-position: bottom;
   height: auto;
   text-align: center;
-  margin-bottom: 1.05833cm; 
+  margin-bottom: 1.058cm;
 }
 
 .page-title {
   color: #fce138;
   display: inline-block;
-  border-bottom: 0.10583cm solid #fce138; 
-  padding: 0 2.11666cm 0.39687cm 2.11666cm; 
+  border-bottom: 0.106cm solid #fce138;
+  padding: 0 2.117cm 0.397cm 2.117cm;
   font-weight: normal;
-  font-size: 1.11125cm;
+  font-size: 1.111cm;
   font-style: italic;
 }
 
@@ -22,21 +22,21 @@
 }
 
 .secondary-content h3 {
-  font-size: 0.66146cm; 
-  margin: 0.52917cm 0; 
+  font-size: 0.661cm;
+  margin: 0.529cm 0;
 }
 
 .secondary-content p {
-  font-size: 0.42333cm; 
+  font-size: 0.423cm;
   line-height: 1.5;
-  margin: 0.52917cm 0; 
+  margin: 0.529cm 0;
 }
 
 .secondary-content ul {
-  margin: 0.39687cm 0.52917cm; 
+  margin: 0.397cm 0.529cm;
 }
 
 .secondary-content li {
   color: #39a6b2;
-  margin: 0.26458cm 0; 
+  margin: 0.264cm 0;
 }
