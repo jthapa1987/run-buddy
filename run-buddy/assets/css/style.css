@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+  padding: 0.5292cm 0.9260cm; 
+  background-color: #39a6b2;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 0.9525cm; 
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header nav {
+  float: right;
+  margin: 0.1852cm 0; 
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 0.7937cm; 
+  font-weight: lighter;
+  font-size: 0.5821cm; 
+}
+
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 1.0583cm 0.9260cm;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 0.7937cm; 
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+
+section {
+  padding: 1.5875cm; 
+}
+
+/*Hero Style Start*/
+
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  height: 15.875cm; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-form {
+  border: solid 0.0794cm #024e76; 
+  background-color: #fce138;
+  padding: 0.5292cm; 
+  width: 13.2292cm;
+  color: #024e76;
+  position: absolute;
+  bottom: 3.1750cm; 
+  right: 3.7042cm; 
+}
+
+.hero-form h3 {
+  font-size: 0.6350cm;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 0.1323cm 0 0.3969cm 0; 
+}
+
+.form-input {
+  border: 0.0264cm solid #024e76; 
+  display: block;
+  padding: 0.1852cm 0.3969cm; 
+  font-size: 0.4233cm; 
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 0.3969cm; 
+}
+
+.hero-form label {
+  margin: 0;
+}
+
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 0.2646cm 0.5292cm; 
+  font-size: 0.4233cm; 
+}
+
+/*Hero Style End*/
+
+/* What We Do Start*/
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 0.5292cm; 
+}
+
+.section-title {
+  font-size: 1.4553cm; 
+  color: #024e76;
+  display: inline-block;
+  margin-bottom: 0.9260cm; 
+  padding: 0 2.6458cm 0.5292cm 2.6458cm; 
+  border-bottom: 0.0794cm solid; 
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+/*What We Do End*/
+
+/*What You Do Start*/
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 2.1167cm; 
+}
+
+.steps img {
+  width: 15%;
+  margin: 0.2646cm 0; 
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 1.2192cm; 
+  margin-top: 0.2646cm; 
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 0.6089cm; 
+}
+
+.steps span {
+  font-size: 1.0054cm; 
+}
+
+/*What You Do End*/
+
+/*Trainers*/
+.trainers {
+  text-align: center;
+}
+
+.trainer {
+  width: 23.8125cm; 
+  margin: 0 auto 0.7937cm auto; 
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 0.9260cm;
+  float: left;
+  width: 65%;
+}
+
+.trainer-bio h3 {
+  font-size: 0.8467cm; 
+  margin-bottom: 0.2117cm; 
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 0.6879cm; 
+  margin-bottom: 0.6615cm; 
+}
+
+.trainer-bio p {
+  font-size: 0.4498cm; 
+  line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/*Reach Out Start*/
+.contact {
+  background-color: #024e76;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #fce138;
+}
+
+.contact-info iframe {
+  width: 10.5833cm;
+  height: 10.5833cm; 
+}
+
+.contact-info div {
+  width: 10.8460cm; 
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 0.7937cm 0 0 1.5875cm; 
+  color: white;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 0.8467cm; 
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 0.5292cm 0; 
+  line-height: 1.5;
+  font-size: 0.5292cm; 
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
